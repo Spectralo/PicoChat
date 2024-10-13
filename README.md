@@ -1,6 +1,9 @@
 # PicoChat
 
-Pico chat is a little *Python* program that create an acess point with a __chat server__ ✨
+	![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+	![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
+
+Pico chat is a little *Python* program that create an acess point with a __chat server__ ✨ \
 Its'a website so everyone can acess it if they're connected on the wifi !
 
 ## How to run it on your Pico W
