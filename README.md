@@ -37,3 +37,10 @@ Supported boards :
 
 - Connect to the wifi network `PicoChat`
 - Open your browser and go to `192.168.1.10`
+
+## Demo !
+
+Screenshot of the interface :\
+Very basic 😅
+\
+![image](https://github.com/user-attachments/assets/68c814b8-e3e2-4c54-ab5a-87efe77d3b42)
