@@ -104,6 +104,8 @@ def webpage():
         </head>
         <body>
             <script>
+            let notTyping = true
+
             async function sendData() {{
                 const message = document.querySelector("#message").value;
                 const username = document.cookie.split("=")[1];
@@ -126,7 +128,24 @@ def webpage():
                     const username = document.cookie.split("=")[1];
                 }}
 
+                document.getElementById('message').addEventListener('focusout', function(){{
+                  notTyping = true;
+                  console.log("unfocus")
+                }});
+
+                document.getElementById('message').addEventListener('focus', function(){{
+                    console.log("focus")
+                    notTyping = false;
+                    console.log(notTyping)
+                }});
             }});
+
+            setInterval(() => {{
+                console.log(notTyping)
+                if (notTyping == true) {{
+                    location.reload();
+                }}
+            }}, 1000);
             </script>
             <div id="messages">
             {
